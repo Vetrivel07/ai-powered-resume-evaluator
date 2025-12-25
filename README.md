@@ -53,7 +53,7 @@ Result: ATS-style evaluation
 
 ## 📸 Screenshots
 
-![Index](static/Index.png)
+![Index](static/index.png)
 
 ## ⚙️ Environment Setup
 
