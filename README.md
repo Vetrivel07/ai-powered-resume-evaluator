@@ -4,6 +4,7 @@ The AI-Powered Resume Evaluator automatically reviews a candidate’s resume (PD
 It simulates both a human recruiter and an Applicant Tracking System (ATS) to evaluate how well a resume matches the job role.
 The app provides a detailed report including job expectations, resume alignment, match percentage, and professional feedback — all in real time through a clean Streamlit web interface.
 
+---
 
 ## 🚀 Features
 
@@ -15,19 +16,17 @@ The app provides a detailed report including job expectations, resume alignment,
     - Match Percentage
     - Summary & Feedback
 
+---
 
 ## 📦 Tech Stack
 
 | Layer                | Technology              | Purpose                             |
 | -------------------- | ----------------------- | ----------------------------------- |
-| **Frontend / UI**    | Streamlit               | Interactive web interface           |
-| **Backend / Logic**  | Python 3.9+             | Workflow and LLM orchestration      |
+| **UI**               | Streamlit               | Interactive web interface           |
 | **LLM Engine**       | GPT-4o-mini             | Core multimodal model (text + PDF)  |
-| **Environment Mgmt** | python-dotenv           | Secure API-key handling             |
 | **Styling**          | Custom CSS              | UI consistency and branding         |
-| **Optional Libs**    | pillow, pdf2image       | Image/PDF preprocessing (if needed) |
 
-
+---
 
 ## 📁 Project Structure
 
@@ -51,16 +50,20 @@ Result: ATS-style evaluation
 
 ```
 
-## 📸 Screenshots
+---
+
+## 📸 Preview
 
 ![Index](static/index.png)
+
+---
 
 ## ⚙️ Environment Setup
 
 ### Create Virtual Environment
 ```
 python -m venv venv
-source venv/bin/activate      # (Windows: venv\Scripts\activate)
+source venv\Scripts\activate
 ```
 
 ### Install Dependencies
@@ -72,6 +75,8 @@ pip install -r requirements.txt
 ```
 streamlit run app.py
 ```
+
+---
 
 ## Author
 
